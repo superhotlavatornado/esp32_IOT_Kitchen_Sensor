@@ -47,10 +47,15 @@ Project Structure
 -----------------
 main/
   ├── i2c_oled_example_main.c   (main application + LVGL)
+  
   ├── mqtt.c / mqtt.h           (MQTT handling)
+  
   ├── wifi.c / wifi.h           (WiFi station logic)
+  
   ├── ethernet.c / ethernet.h   (Ethernet initialization + callbacks)
+  
   ├── sensor.c / sensor.h       (BME280 driver)
+  
   ├── fan_control.c / fan_control.h (Fan PI controller)
 
 Usage
